@@ -17,5 +17,7 @@ This code has the following dependencies:
 
 For more information, you can contact me via edilsonacjr@gmail.com or edilsonacjr@usp.br.
 
-Thanks a lot. 
+
+
+
 Best, Edilson A. Corrêa Jr.
