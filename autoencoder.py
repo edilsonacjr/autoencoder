@@ -14,13 +14,9 @@ HIDDEN_DIM = 300
 
 def main():
 
-    # data must receive a list of senteces/strings that will be used on training
-    data = ['list of sentences/string', 'list of sentences/string']
 
-    all_sentences = []
-
-    for word in data:
-        all_sentences += data[word]['X']
+    # all_sentences must receive a list of senteces/strings that will be used on training
+    all_sentences = ['list of sentences/string', 'list of sentences/string']
 
     tokenizer = Tokenizer() # nb_words=MAX_NB_WORDS
     tokenizer.fit_on_texts(all_sentences)
