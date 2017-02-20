@@ -7,7 +7,6 @@ from keras.layers import Embedding, Input, LSTM, RepeatVector, Dense, Dropout
 from keras.models import Model
 
 from gensim.models import Word2Vec
-from util import load_semeval2013
 
 MAX_SEQUENCE_LENGTH = 7
 EMBEDDING_DIM = 300
@@ -15,7 +14,8 @@ HIDDEN_DIM = 300
 
 def main():
 
-    data = load_semeval2013(context_size=3)
+    # data must receive a list of senteces/strings that will be used on training
+    data = ['list of sentences/string', 'list of sentences/string']
 
     all_sentences = []
 
