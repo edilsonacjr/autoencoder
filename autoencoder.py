@@ -53,7 +53,7 @@ def main():
     encoded = LSTM(HIDDEN_DIM)(embedded_sequences)
 
     decoded = RepeatVector(MAX_SEQUENCE_LENGTH)(encoded)
-    decoded = LSTM(len(word_index))(decoded)
+    decoded = LSTM(HIDDEN_DIM)(decoded)
 
     #decoded = Dropout(0.5)(decoded)
     decoded = Dense(y_train.shape[1], activation='softmax')(decoded)
