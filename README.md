@@ -1,5 +1,4 @@
-# LSTM autoencoder for sentence embedding generation
----
+# Autoencoders for text embedding generation
 
 
 ### Dependencies
